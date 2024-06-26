@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.image {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10%;
+    padding: 25px 70px;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+}
+
+.title {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #ffcccc;
+    text-shadow: 6px 4px 8px;
+}
+
+.bio {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-shadow: 6px 4px 8px;
+}
+
+.box {
+    border: 1px none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.steam-button {
+    color: #18254f;
+    border: none;
+    font-size: normal;
+}
+
+.steam-button:hover {
+    color: #6e7caa;
+    text-shadow: 4px 2px 6px;
+}
+
+.discord-button {
+    color: #5763F6;
+    border: none;
+    font-size: normal;
+}
+
+.discord-button:hover {
+    color: #8a93f3;
+    text-shadow: 4px 2px 6px;
+}
+
+.youtube-button {
+    color: #ff0000;
+    border: none;
+    font-size: normal;
+}
+
+.youtube-button:hover {
+    color: #f37777;
+    text-shadow: 4px 2px 6px;
+}
